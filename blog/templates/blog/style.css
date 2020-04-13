@@ -1,0 +1,51 @@
+/* ヘッダー部分 */
+.header{
+  top: 0;
+  margin-top: 0px;
+  height: 70px;
+  width: 100%;
+  background-color: #ADD8E6; /*lightblue*/
+}
+
+.header-block{
+	width: 120px;
+	height: 40px;
+	margin: 0 0 0 50px;
+	padding: 19px 0 20px 0;
+	display: inline-block;
+	text-align:center;
+	border-top: solid 6px #4682B4;
+	color: #333333; /**/
+}
+.header-block:hover {
+	opacity: 0.6;
+	height: 25px;
+	background-color: #b0c4fe;/*lightsteelblue*/
+}
+
+
+/* メイン部分 */
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-text{
+	margin-right:10%;
+	margin-left:10%;
+}
+
+.red{
+	color:#FF4500;
+}
+
+/* フッター部分 */
+.footer{
+	background:#1e9a11;
+	color:#fff;
+}
+
+.footer-menu-right{
+	float: right;
+}
